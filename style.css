@@ -1,6 +1,49 @@
-index.html
-  
-  
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111013;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* Set a max-width for larger screens */
+    margin: auto;
+    padding: 20px; /* Add some padding */
+}
+
+.logo {
+    width: 150px; /* Set your logo width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Add some space below your logo */
+}
+
+.main-heading,
+.dynamic-headline,
+.slogan,
+.hero-text {
+    margin-bottom: 20px; /* Spacing for all text elements */
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Add styles from your style.css that are relevant to the layout */
+
+/* Include font face imports and other global styles from your style.css here */
+
   @font-face { 
     font-family:'Meedori Sans';
     font-style:normal;
