@@ -1,43 +1,4 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #111013; /* Updated background color */
-    color: white;
-    margin: 0;
-    padding: 0;
-  }
-  .container {
-    width: 80%;
-    margin: auto;
-  }
-  header {
-    text-align: center;
-    padding: 50px 0;
-  }
-  .logo {
-    font-size: 2em;
-    color: red;
-  }
-  .slogan {
-    font-size: 1.5em;
-    margin-bottom: 50px;
-  }
-  .main-heading {
-    font-size: 3em;
-    text-transform: uppercase;
-  }
-  .sub-heading {
-    font-size: 2em;
-    margin: 20px 0;
-  }
-  .cta-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: red;
-    color: #000;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 20px;
-  }
+index.html
   
   
   @font-face { 
